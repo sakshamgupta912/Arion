@@ -41,25 +41,25 @@ const servicesData = [
       "X-rays are commonly used to evaluate bone fractures, infections, or lung conditions. Fast and effective, this procedure is often one of the first steps in diagnosing a variety of health issues.",
   },
   {
-    icon: "../mri.jpg",
+    icon: "./mri.jpg",
     title: <>MRI <br></br>(Magnetic Resonance Imaging)</>,
     details:
       "MRI scans use magnets and radio waves to create detailed images of soft tissues like the brain, spine, muscles, and organs. They are non-invasive, radiation-free, and helpful for diagnosing various conditions.",
   },
   {
-    icon: "../ct-scan.jpg",
+    icon: "/ct-scan.jpg",
     title: <>CT Scan <br></br> (Computed Tomography)</>,
     details:
       "CT scans combine X-ray images with computer processing to create cross-sectional images of the body. This technology helps identify complex conditions like cancer, vascular problems, and internal injuries.",
   },
   {
-    icon: "../ultrasound.jpg",
+    icon: "./ultrasound.JPG",
     title: "Ultrasound",
     details:
       "Ultrasound imaging uses high-frequency sound waves to capture real-time images of organs and tissues. It is commonly used in obstetrics and gynecology, cardiology, and abdominal assessments.",
   },
   {
-    icon: "../mammography.jpg",
+    icon: "/mammography.JPG",
     title: "Mammography",
     details:
       "Our specialized mammography services provide breast cancer screening for early detection. With digital mammography technology, we deliver clear and precise images, ensuring quick and accurate results.",
