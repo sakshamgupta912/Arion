@@ -73,8 +73,8 @@ const Header = () => {
             />
             <nav className="bg-white border-gray-200 dark:bg-gray-900 shadow-[#00000042] shadow-sm ">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-2">
-                    <a href="../" className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <Image src='/logo.png' width={150} height={100} style={{ objectFit: 'contain' }} alt="Logo" />
+                    <a href="./" className="flex items-center space-x-3 rtl:space-x-reverse">
+                        <Image src="./logo.png" width={150} height={100} style={{ objectFit: 'contain' }} alt="Logo" />
 
                     </a>
                     <div className="flex items-center md:order-1 space-x-3 md:space-x-0 rtl:space-x-reverse">
