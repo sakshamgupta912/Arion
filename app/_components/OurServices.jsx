@@ -53,13 +53,13 @@ const servicesData = [
       "CT scans combine X-ray images with computer processing to create cross-sectional images of the body. This technology helps identify complex conditions like cancer, vascular problems, and internal injuries.",
   },
   {
-    icon: "./ultrasound.JPG",
+    icon: "./ultrasound.jpg",
     title: "Ultrasound",
     details:
       "Ultrasound imaging uses high-frequency sound waves to capture real-time images of organs and tissues. It is commonly used in obstetrics and gynecology, cardiology, and abdominal assessments.",
   },
   {
-    icon: "./mammography.JPG",
+    icon: "./mammography.jpg",
     title: "Mammography",
     details:
       "Our specialized mammography services provide breast cancer screening for early detection. With digital mammography technology, we deliver clear and precise images, ensuring quick and accurate results.",
