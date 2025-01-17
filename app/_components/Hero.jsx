@@ -32,7 +32,7 @@ const description = (
 
 const Slide1 = () => {return (
   <CustomComponent
-    image="/slider.jpg"
+    image="../slider.jpg"
     buttonContent={buttonContent}
     title={title}
     description={description}
@@ -41,7 +41,7 @@ const Slide1 = () => {return (
 
 const Slide2 = () => {return (
   <CustomComponent
-    image="/slider2.jpg"
+    image="../slider2.jpg"
     buttonContent={buttonContent}
     title={title}
     description={description}
