@@ -1,7 +1,9 @@
+import Link from "next/link";
 import React from "react";
-const ServiceCard = ({ icon, title, details }) => {
+const ServiceCard = ({ icon, title, details, slug }) => {
   return (
     <>
+       <Link href={`/services/${slug}`}>
       <div className="flex flex-wrap justify-center items-center  group relative cursor-pointer overflow-hidden bg-white  shadow-[rgba(0,0,0,0.35)_0px_5px_10px] ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-[rgba(0,0,0,0.35)_0px_5px_10px] sm:mx-auto sm:max-w-xs sm:rounded-lg ">
 
         <span className="absolute top-16 z-0 h-20 w-20 rounded-full bg-primary transition-all duration-300 group-hover:scale-[10]"></span>
@@ -9,7 +11,7 @@ const ServiceCard = ({ icon, title, details }) => {
         <div className="relative px-4 sm:h-96 md:h-[320px] m-4 z-10 mx-auto max-w-sm flex flex-wrap justify-center items-center space-y-2 content-start">
           <span className="grid h-32 w-32 place-items-center rounded-full bg-primary transition-all duration-300 group-hover:bg-primary">
             <div className="h-27 w-27 rounded-full overflow-hidden">
-              <img
+              <img style={{aspectRatio: '1/1'}}
                 src={icon}
                 alt={title}
                 className="h-full w-full object-cover"
@@ -28,49 +30,83 @@ const ServiceCard = ({ icon, title, details }) => {
             </div>
           </div>
         </div>
-      </div>
+        </div>
+        </Link>
     </>
   );
 };
 
 const servicesData = [
   {
+    icon: "./radiation-therapy.jpg",
+    title: <>Radiation Therapy<br /><span>&nbsp;</span></>,
+    slug: "radiation-therapy", 
+    details:
+      "Radiation therapy uses high doses of radiation to kill cancer cells and shrink tumors. It is a precise and effective treatment for many types of cancer, tailored to minimize damage to healthy tissues.",
+  },
+   {
+    icon: "./nuclear-medicine.jpg",
+     title: <>Nuclear Medicine<br /><span>&nbsp;</span></>,
+     slug: "nuclear-medicine",
+    details:
+      "Nuclear medicine uses small amounts of radioactive material to diagnose and treat diseases. It provides insights into organ function and structure, helping to identify conditions like tumors, infections, and more.",
+  },
+  {
+    icon: "./gene-profiling.jpg",
+    title: <>Gene Profiling<br /><span>&nbsp;</span></>,
+    details:
+      "Gene profiling analyzes the activity of multiple genes to uncover insights about health, disease progression, and individual traits. It aids in personalized treatments and healthcare decisions.",
+  },
+  {
+    icon: "./routine-diagnostics.webp",
+    title: <>Routine Diagnostics<br /><span>&nbsp;</span></>,
+    details:
+      "Routine blood and urine tests help assess overall health, detect medical conditions, and monitor ongoing treatments. These essential diagnostics provide valuable insights into various health indicators.",
+  },
+  {
+    icon: "./chemotherapy.webp",
+    title: <>Chemotherapy<br /><span>&nbsp;</span></>,
+    details:
+      "Chemotherapy uses powerful drugs to kill or control cancer cells. It is often used alone or in combination with other treatments to target and manage various types of cancer effectively.",
+  },
+  {
     icon: "./x-ray.png",
     title: <>X-Ray<br /><span>&nbsp;</span></>,
     details:
-      "X-rays are commonly used to evaluate bone fractures, infections, or lung conditions. Fast and effective, this procedure is often one of the first steps in diagnosing a variety of health issues.",
+      "X-rays are commonly used to evaluate bone fractures, infections, or lung conditions. This fast and effective procedure is often one of the first steps in diagnosing a variety of health issues.",
   },
   {
     icon: "./mri.jpg",
-    title: <>MRI <br></br>(Magnetic Resonance Imaging)</>,
+    title: <>MRI<br /><span>(Magnetic Resonance Imaging)</span></>,
     details:
-      "MRI scans use magnets and radio waves to create detailed images of soft tissues like the brain, spine, muscles, and organs. They are non-invasive, radiation-free, and helpful for diagnosing various conditions.",
-  },
+   "MRI scans use magnets and radio waves to create detailed, radiation-free images of soft tissues, aiding in diagnosing neurological and musculoskeletal conditions.",
+},
   {
     icon: "./ct-scan.jpg",
-    title: <>CT Scan <br></br> (Computed Tomography)</>,
+    title: <>CT Scan<br /><span>(Computed Tomography)</span></>,
     details:
-      "CT scans combine X-ray images with computer processing to create cross-sectional images of the body. This technology helps identify complex conditions like cancer, vascular problems, and internal injuries.",
+      "CT scans combine X-ray images with advanced computer processing to create cross-sectional images of the body. They are used to identify complex conditions like cancer, vascular problems, and internal injuries.",
   },
   {
     icon: "./ultrasound.jpg",
-    title: "Ultrasound",
+    title: <>Ultrasound<br /><span>&nbsp;</span></>,
     details:
-      "Ultrasound imaging uses high-frequency sound waves to capture real-time images of organs and tissues. It is commonly used in obstetrics and gynecology, cardiology, and abdominal assessments.",
+      "Ultrasound imaging uses high-frequency sound waves to capture real-time images of organs and tissues. It is frequently utilized in obstetrics, gynecology, cardiology, and abdominal assessments.",
   },
   {
     icon: "./mammography.jpg",
-    title: "Mammography",
+    title: <>Mammography<br /><span>&nbsp;</span></>,
     details:
-      "Our specialized mammography services provide breast cancer screening for early detection. With digital mammography technology, we deliver clear and precise images, ensuring quick and accurate results.",
+      "Our specialized mammography services provide breast cancer screening for early detection. Utilizing digital mammography technology, we ensure precise imaging and quick, accurate results.",
   },
   {
     icon: "./fluoroscopy.jpg",
-    title: "Fluoroscopy",
+    title: <>Fluoroscopy<br /><span>&nbsp;</span></>,
     details:
-      "Fluoroscopy is a type of X-ray that provides real-time images, helping doctors guide procedures like biopsies, catheter placements, and gastrointestinal evaluations.",
-  },
+      "Fluoroscopy is a real-time X-ray imaging technique that aids procedures like biopsies, catheter placements, and gastrointestinal evaluations, ensuring precision and safety.", },
+ 
 ];
+
  
 
 const Service = () => {
@@ -102,6 +138,7 @@ const Service = () => {
                 icon={service.icon}
                 title={service.title}
                 details={service.details}
+                slug={service.slug}
               />
             ))}
 
