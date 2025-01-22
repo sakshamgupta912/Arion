@@ -409,62 +409,440 @@ const servicesData = [
 
       </>
   },
+ {
+  icon: "/routine-diagnostics.webp",
+  title: "Routine Diagnostics",
+  slug: "routine-diagnostics",
+  details:
+    <div className="p-6 bg-gray-50 text-gray-800">
+
+      <p className="text-sm text-gray-600 mb-4">
+        Source: 
+        <a 
+          href="https://www.mayoclinic.org/tests-procedures" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline"
+        >
+          https://www.mayoclinic.org/tests-procedures
+        </a>
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">What are Routine Diagnostics?</h2>
+      <p className="mb-4">
+        Routine diagnostics include standard blood and urine tests that help assess overall health, identify medical conditions, and monitor the effectiveness of ongoing treatments. These tests provide valuable information about various body functions and systems.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Key Tests</h2>
+      <ul className="list-disc list-inside mb-4">
+        <li><strong>Complete Blood Count (CBC):</strong> Measures red and white blood cells, hemoglobin, and platelets to check for infections, anemia, and other conditions.</li>
+        <li><strong>Basic Metabolic Panel (BMP):</strong> Assesses kidney function, blood glucose levels, and electrolyte balance.</li>
+        <li><strong>Lipid Profile:</strong> Evaluates cholesterol and triglyceride levels to assess heart health.</li>
+        <li><strong>Urinalysis:</strong> Detects signs of infections, kidney issues, and other abnormalities.</li>
+      </ul>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Benefits of Routine Diagnostics</h2>
+      <p className="mb-4">
+        Regular testing can help identify potential health issues early, allowing for timely intervention and treatment. It also provides a baseline for monitoring changes in health over time.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">When to Get Tested?</h2>
+      <p className="mb-4">
+        Routine diagnostics are typically recommended annually or as advised by your healthcare provider, especially if you have risk factors or existing health concerns.
+      </p>
+
+    </div>,
+},
+
+ {
+  icon: "/chemotherapy.webp",
+  title: "Chemotherapy",
+  slug: "chemotherapy",
+  details:
+    <div className="p-6 bg-gray-50 text-gray-800">
+
+      <p className="text-sm text-gray-600 mb-4">
+        Source: 
+        <a 
+          href="https://www.cancer.gov/about-cancer/treatment/types/chemotherapy" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline"
+        >
+          https://www.cancer.gov/about-cancer/treatment/types/chemotherapy
+        </a>
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">What is Chemotherapy?</h2>
+      <p className="mb-4">
+        Chemotherapy is a cancer treatment that uses drugs to kill or control cancer cells. These powerful medications target rapidly dividing cells in the body, which include cancer cells but may also affect healthy cells.
+      </p>
+      <p className="mb-4">
+        It can be used alone or in combination with other treatments, such as surgery or radiation therapy, to effectively treat various types of cancer.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">How Chemotherapy Works</h2>
+      <p className="mb-4">
+        Chemotherapy works by disrupting the cell cycle of rapidly dividing cells. The drugs may:
+      </p>
+      <ul className="list-disc list-inside mb-4">
+        <li>Stop cancer cells from growing and dividing.</li>
+        <li>Interfere with the ability of cancer cells to repair damage.</li>
+        <li>Trigger cancer cell death (apoptosis).</li>
+      </ul>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Goals of Chemotherapy</h2>
+      <p className="mb-4">Chemotherapy can serve different purposes depending on the cancer type and stage:</p>
+      <ul className="list-disc list-inside mb-4">
+        <li><strong>Curative:</strong> Aim to cure cancer by eliminating all cancer cells.</li>
+        <li><strong>Control:</strong> Manage the growth and spread of cancer when a cure is not possible.</li>
+        <li><strong>Palliative:</strong> Relieve symptoms caused by cancer, such as pain or pressure from tumors.</li>
+      </ul>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Types of Chemotherapy</h2>
+      <p className="mb-4">Chemotherapy drugs are classified based on how they work and include:</p>
+      <ul className="list-disc list-inside mb-4">
+        <li>Alkylating agents</li>
+        <li>Antimetabolites</li>
+        <li>Topoisomerase inhibitors</li>
+        <li>Mitotic inhibitors</li>
+        <li>Targeted therapy drugs</li>
+      </ul>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">How Chemotherapy is Administered</h2>
+      <p className="mb-4">Chemotherapy can be delivered in several ways:</p>
+      <ul className="list-disc list-inside mb-4">
+        <li><strong>Intravenous (IV):</strong> Through a vein for quick absorption into the bloodstream.</li>
+        <li><strong>Oral:</strong> Pills or capsules taken by mouth.</li>
+        <li><strong>Injected:</strong> Administered directly into a muscle or under the skin.</li>
+        <li><strong>Topical:</strong> Creams applied to the skin for certain types of skin cancer.</li>
+        <li><strong>Intra-arterial or Intraperitoneal:</strong> Delivered directly to a specific area, such as the liver or abdominal cavity.</li>
+      </ul>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Side Effects of Chemotherapy</h2>
+      <p className="mb-4">
+        While chemotherapy targets cancer cells, it can also affect normal cells, leading to side effects such as:
+      </p>
+      <ul className="list-disc list-inside mb-4">
+        <li>Fatigue</li>
+        <li>Nausea and vomiting</li>
+        <li>Hair loss</li>
+        <li>Increased risk of infection</li>
+        <li>Appetite changes</li>
+        <li>Anemia</li>
+      </ul>
+      <p className="mb-4">
+        Many side effects can be managed with supportive care or adjustments to the treatment plan. 
+        Learn more about 
+        <a 
+          href="https://www.cancer.gov/about-cancer/treatment/side-effects" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline"
+        >
+          managing side effects
+        </a>.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Benefits of Chemotherapy</h2>
+      <p className="mb-4">Chemotherapy provides several benefits, including:</p>
+      <ul className="list-disc list-inside mb-4">
+        <li>Shrinking tumors before surgery or radiation therapy (neoadjuvant therapy).</li>
+        <li>Eliminating remaining cancer cells after surgery (adjuvant therapy).</li>
+        <li>Treating cancers that have spread to other parts of the body (metastatic cancer).</li>
+        <li>Improving quality of life through symptom relief.</li>
+      </ul>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Preparing for Chemotherapy</h2>
+      <p className="mb-4">
+        Before starting chemotherapy, your doctor will assess your overall health and treatment goals. You may undergo tests to ensure your body can handle the treatment. It is important to discuss potential side effects, necessary lifestyle adjustments, and supportive care options with your healthcare provider.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Cost of Chemotherapy</h2>
+      <p className="mb-4">
+        Chemotherapy costs vary depending on the drugs used, duration of treatment, and healthcare setting. Many patients rely on insurance coverage, financial assistance programs, or community resources to manage the expenses.
+      </p>
+    </div>,
+},
+ {
+  icon: "/x-ray.png",
+  title: "X-Ray",
+  slug: "x-ray",
+  details:
+    <div className="p-6 bg-gray-50 text-gray-800">
+
+      <p className="text-sm text-gray-600 mb-4">
+        Source: 
+        <a 
+          href="https://www.radiologyinfo.org/en/info/chestrad" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline"
+        >
+          https://www.radiologyinfo.org/en/info/chestrad
+        </a>
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">What is an X-Ray?</h2>
+      <p className="mb-4">
+        X-rays are a quick, non-invasive imaging technique used to visualize the inside of the body. They are especially effective for evaluating bones, detecting fractures, and diagnosing certain medical conditions like pneumonia or arthritis.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">How X-Rays Work</h2>
+      <p className="mb-4">
+        X-rays use a small amount of ionizing radiation to create images of the body. The radiation passes through soft tissues but is absorbed by denser materials like bones, creating a contrast that forms the image. The resulting black-and-white image helps doctors identify abnormalities.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Types of X-Rays</h2>
+      <p className="mb-4">X-rays are versatile and used for various purposes, including:</p>
+      <ul className="list-disc list-inside mb-4">
+        <li><strong>Chest X-Ray:</strong> To diagnose lung infections, heart conditions, or rib fractures.</li>
+        <li><strong>Bone X-Ray:</strong> To detect fractures, arthritis, or bone infections.</li>
+        <li><strong>Abdominal X-Ray:</strong> To evaluate digestive system issues or detect kidney stones.</li>
+        <li><strong>Mammogram:</strong> A specialized X-ray for breast cancer screening.</li>
+        <li><strong>Dental X-Ray:</strong> To examine teeth, gums, and jawbone health.</li>
+      </ul>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Benefits of X-Rays</h2>
+      <p className="mb-4">X-rays provide several key advantages:</p>
+      <ul className="list-disc list-inside mb-4">
+        <li>Quick and painless imaging procedure.</li>
+        <li>Useful for diagnosing a wide range of medical conditions.</li>
+        <li>Readily available in most healthcare facilities.</li>
+        <li>Non-invasive and effective for initial diagnostic evaluation.</li>
+      </ul>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">How to Prepare for an X-Ray</h2>
+      <p className="mb-4">
+        Most X-rays require minimal preparation. You may be asked to remove jewelry, glasses, or metal objects that can interfere with the imaging. For specific X-rays like abdominal imaging, fasting may be necessary. Always inform your doctor if you are pregnant or suspect pregnancy.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Risks of X-Rays</h2>
+      <p className="mb-4">
+        X-rays involve exposure to a small amount of radiation. While the risk is minimal for most people, repeated exposure or high doses can have cumulative effects. Protective measures like lead aprons are used to minimize exposure, especially for pregnant women and children.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Applications of X-Rays</h2>
+      <p className="mb-4">X-rays are used in various medical fields, including:</p>
+      <ul className="list-disc list-inside mb-4">
+        <li>Orthopedics: To detect fractures, bone tumors, or joint dislocations.</li>
+        <li>Pulmonology: For diagnosing pneumonia, tuberculosis, or lung cancer.</li>
+        <li>Cardiology: To evaluate heart size and detect conditions like heart failure.</li>
+        <li>Gastroenterology: To identify bowel obstructions or foreign objects.</li>
+      </ul>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Cost of X-Rays</h2>
+      <p className="mb-4">
+        X-ray costs vary depending on the type, healthcare facility, and location. They are generally affordable compared to advanced imaging techniques like CT or MRI. Many insurance plans cover basic X-ray procedures.
+      </p>
+    </div>,
+},
+
+ {
+  icon: "/mri.jpg",
+  title: "MRI (Magnetic Resonance Imaging)",
+  slug: "mri",
+  details:
+    <div className="p-6 bg-gray-50 text-gray-800">
+
+      <p className="text-sm text-gray-600 mb-4">
+        Source: 
+        <a 
+          href="https://www.radiologyinfo.org/en/info/mri" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline"
+        >
+          https://www.radiologyinfo.org/en/info/mri
+        </a>
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">What is MRI?</h2>
+      <p className="mb-4">
+        MRI uses powerful magnets and radio waves to create detailed images of organs, tissues, and other structures inside the body without using radiation. It is particularly effective for diagnosing conditions involving soft tissues, such as the brain, spinal cord, and muscles.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">How MRI Works</h2>
+      <p className="mb-4">
+        MRI scanners generate a strong magnetic field that temporarily realigns hydrogen atoms in the body. Radio waves cause these atoms to produce faint signals, which are used to create cross-sectional images.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Common Uses of MRI</h2>
+      <ul className="list-disc list-inside mb-4">
+        <li>Neurological disorders (brain and spinal cord imaging).</li>
+        <li>Musculoskeletal injuries (joints, muscles, ligaments).</li>
+        <li>Cardiac imaging (heart and blood vessels).</li>
+        <li>Abdominal and pelvic scans.</li>
+        <li>Oncology (detecting and staging cancers).</li>
+      </ul>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Advantages of MRI</h2>
+      <p className="mb-4">
+        MRI provides exceptional image clarity, especially for soft tissues, and avoids the risks associated with radiation exposure.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Limitations of MRI</h2>
+      <p className="mb-4">
+        The procedure can be time-consuming, costly, and uncomfortable for patients with claustrophobia. People with certain implants or devices (e.g., pacemakers) may not be eligible.
+      </p>
+
+    </div>,
+},
+
   {
-    icon: "/routine-diagnostics.webp",
-    title: "Routine Diagnostics",
-    slug: "routine-diagnostics",
-    details:
-      "Routine blood and urine tests help assess overall health, detect medical conditions, and monitor ongoing treatments. These essential diagnostics provide valuable insights into various health indicators.",
-  },
+  icon: "/ct-scan.jpg",
+  title: "CT Scan (Computed Tomography)",
+  slug: "ct-scan",
+  details:
+    <div className="p-6 bg-gray-50 text-gray-800">
+
+      <p className="text-sm text-gray-600 mb-4">
+        Source: 
+        <a 
+          href="https://www.radiologyinfo.org/en/info/ct" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline"
+        >
+          https://www.radiologyinfo.org/en/info/ct
+        </a>
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">What is a CT Scan?</h2>
+      <p className="mb-4">
+        A CT scan combines multiple X-ray images taken from different angles to produce cross-sectional views of bones, blood vessels, and soft tissues, providing a more detailed picture than standard X-rays.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Common Uses of CT Scans</h2>
+      <ul className="list-disc list-inside mb-4">
+        <li>Detecting tumors or cancers.</li>
+        <li>Assessing internal injuries or trauma.</li>
+        <li>Guiding biopsies and other procedures.</li>
+        <li>Diagnosing vascular conditions like aneurysms.</li>
+      </ul>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Advantages of CT Scans</h2>
+      <p className="mb-4">
+        CT scans are fast and provide highly detailed images, making them ideal for emergency situations and complex diagnostics.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Risks and Precautions</h2>
+      <p className="mb-4">
+        CT scans involve exposure to more radiation than standard X-rays. Contrast agents used may cause allergic reactions in rare cases.
+      </p>
+
+    </div>,
+},
+
+ {
+  icon: "/ultrasound.jpg",
+  title: "Ultrasound",
+  slug: "ultrasound",
+  details:
+    <div className="p-6 bg-gray-50 text-gray-800">
+
+      <p className="text-sm text-gray-600 mb-4">
+        Source: 
+        <a 
+          href="https://www.radiologyinfo.org/en/info/abdomus" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline"
+        >
+          https://www.radiologyinfo.org/en/info/abdomus
+        </a>
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">What is Ultrasound?</h2>
+      <p className="mb-4">
+        Ultrasound imaging uses high-frequency sound waves to create real-time images of internal organs, tissues, and blood flow. It is commonly used during pregnancy and for diagnosing abdominal, pelvic, and cardiovascular conditions.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Key Applications</h2>
+      <ul className="list-disc list-inside mb-4">
+        <li>Monitoring fetal development during pregnancy.</li>
+        <li>Detecting gallstones, liver disease, or kidney problems.</li>
+        <li>Evaluating blood flow and heart function.</li>
+      </ul>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Benefits of Ultrasound</h2>
+      <p className="mb-4">
+        Non-invasive, radiation-free, and safe for all age groups, including pregnant women and infants.
+      </p>
+
+    </div>,
+},
+
   {
-    icon: "/chemotherapy.webp",
-    title: "Chemotherapy",
-    slug: "chemotherapy",
-    details:
-      "Chemotherapy uses powerful drugs to kill or control cancer cells. It is often used alone or in combination with other treatments to target and manage various types of cancer effectively.",
-  },
-  {
-    icon: "/x-ray.png",
-    title: "X-Ray",
-    slug: "x-ray",
-    details:
-      "X-rays are commonly used to evaluate bone fractures, infections, or lung conditions. This fast and effective procedure is often one of the first steps in diagnosing a variety of health issues.",
-  },
-  {
-    icon: "/mri.jpg",
-    title: "MRI (Magnetic Resonance Imaging)",
-    slug: "mri",
-    details:
-      "MRI scans use magnets and radio waves to create detailed, radiation-free images of soft tissues, aiding in diagnosing neurological and musculoskeletal conditions.",
-  },
-  {
-    icon: "/ct-scan.jpg",
-    title: "CT Scan (Computed Tomography)",
-    slug: "ct-scan",
-    details:
-      "CT scans combine X-ray images with advanced computer processing to create cross-sectional images of the body. They are used to identify complex conditions like cancer, vascular problems, and internal injuries.",
-  },
-  {
-    icon: "/ultrasound.jpg",
-    title: "Ultrasound",
-    slug: "ultrasound",
-    details:
-      "Ultrasound imaging uses high-frequency sound waves to capture real-time images of organs and tissues. It is frequently utilized in obstetrics, gynecology, cardiology, and abdominal assessments.",
-  },
-  {
-    icon: "/mammography.jpg",
-    title: "Mammography",
-    slug: "mammography",
-    details:
-      "Our specialized mammography services provide breast cancer screening for early detection. Utilizing digital mammography technology, we ensure precise imaging and quick, accurate results.",
-  },
-  {
-    icon: "/fluoroscopy.jpg",
-    title: "Fluoroscopy",
-    slug: "fluoroscopy",
-    details:
-      "Fluoroscopy is a real-time X-ray imaging technique that aids procedures like biopsies, catheter placements, and gastrointestinal evaluations, ensuring precision and safety.",
-  },
+  icon: "/mammography.jpg",
+  title: "Mammography",
+  slug: "mammography",
+  details:
+    <div className="p-6 bg-gray-50 text-gray-800">
+
+      <p className="text-sm text-gray-600 mb-4">
+        Source: 
+        <a 
+          href="https://www.radiologyinfo.org/en/info/mammo" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline"
+        >
+          https://www.radiologyinfo.org/en/info/mammo
+        </a>
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">What is Mammography?</h2>
+      <p className="mb-4">
+        Mammography uses low-dose X-rays to detect and diagnose breast cancer in its early stages. It is a crucial tool for preventive healthcare.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Types of Mammograms</h2>
+      <p className="mb-4">
+        Screening mammograms are for routine check-ups, while diagnostic mammograms investigate specific concerns.
+      </p>
+
+    </div>,
+},
+
+ {
+  icon: "/fluoroscopy.jpg",
+  title: "Fluoroscopy",
+  slug: "fluoroscopy",
+  details:
+    <div className="p-6 bg-gray-50 text-gray-800">
+
+      <p className="text-sm text-gray-600 mb-4">
+        Source: 
+        <a 
+          href="https://www.radiologyinfo.org/en/info/fluoroscopy" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline"
+        >
+          https://www.radiologyinfo.org/en/info/fluoroscopy
+        </a>
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">What is Fluoroscopy?</h2>
+      <p className="mb-4">
+        Fluoroscopy provides real-time X-ray images to guide diagnostic and interventional procedures, such as catheter placements, biopsies, and gastrointestinal evaluations.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Applications</h2>
+      <ul className="list-disc list-inside mb-4">
+        <li>Examining blood flow through arteries and veins.</li>
+        <li>Assisting in joint injections or spinal procedures.</li>
+      </ul>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-4">Safety Measures</h2>
+      <p className="mb-4">
+        Protective shields and minimal radiation exposure ensure patient safety during the procedure.
+      </p>
+
+    </div>,
+},
+
 ];
 
 export default servicesData;
