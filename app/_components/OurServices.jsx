@@ -54,53 +54,62 @@ const servicesData = [
   {
     icon: "./gene-profiling.jpg",
     title: <>Gene Profiling<br /><span>&nbsp;</span></>,
+      slug: "gene-profiling",
     details:
       "Gene profiling analyzes the activity of multiple genes to uncover insights about health, disease progression, and individual traits. It aids in personalized treatments and healthcare decisions.",
   },
   {
     icon: "./routine-diagnostics.webp",
+     slug: "routine-diagnostics",
     title: <>Routine Diagnostics<br /><span>&nbsp;</span></>,
     details:
       "Routine blood and urine tests help assess overall health, detect medical conditions, and monitor ongoing treatments. These essential diagnostics provide valuable insights into various health indicators.",
   },
   {
     icon: "./chemotherapy.webp",
+     slug: "chemotherapy",
     title: <>Chemotherapy<br /><span>&nbsp;</span></>,
     details:
       "Chemotherapy uses powerful drugs to kill or control cancer cells. It is often used alone or in combination with other treatments to target and manage various types of cancer effectively.",
   },
   {
     icon: "./x-ray.png",
+     slug: "x-ray",
     title: <>X-Ray<br /><span>&nbsp;</span></>,
     details:
       "X-rays are commonly used to evaluate bone fractures, infections, or lung conditions. This fast and effective procedure is often one of the first steps in diagnosing a variety of health issues.",
   },
   {
     icon: "./mri.jpg",
+     slug: "mri",
     title: <>MRI<br /><span>(Magnetic Resonance Imaging)</span></>,
     details:
    "MRI scans use magnets and radio waves to create detailed, radiation-free images of soft tissues, aiding in diagnosing neurological and musculoskeletal conditions.",
 },
   {
     icon: "./ct-scan.jpg",
+     slug: "ct-scan",
     title: <>CT Scan<br /><span>(Computed Tomography)</span></>,
     details:
       "CT scans combine X-ray images with advanced computer processing to create cross-sectional images of the body. They are used to identify complex conditions like cancer, vascular problems, and internal injuries.",
   },
   {
     icon: "./ultrasound.jpg",
+     slug: "ultrasound",
     title: <>Ultrasound<br /><span>&nbsp;</span></>,
     details:
       "Ultrasound imaging uses high-frequency sound waves to capture real-time images of organs and tissues. It is frequently utilized in obstetrics, gynecology, cardiology, and abdominal assessments.",
   },
   {
     icon: "./mammography.jpg",
+     slug: "mammography",
     title: <>Mammography<br /><span>&nbsp;</span></>,
     details:
       "Our specialized mammography services provide breast cancer screening for early detection. Utilizing digital mammography technology, we ensure precise imaging and quick, accurate results.",
   },
   {
     icon: "./fluoroscopy.jpg",
+     slug: "fluoroscopy",
     title: <>Fluoroscopy<br /><span>&nbsp;</span></>,
     details:
       "Fluoroscopy is a real-time X-ray imaging technique that aids procedures like biopsies, catheter placements, and gastrointestinal evaluations, ensuring precision and safety.", },
