@@ -4,7 +4,7 @@ import Hero from "./_components/Hero";
 import Service from "./_components/OurServices";
 import WhyChooseUs from "./_components/WhyChooseUs";
 import AboutUs from "./_components/AboutUs";
-
+import ScrollToTop from "@/components/ui/scrolltop";
 export default function Home() {
   return (
     <div>
@@ -13,7 +13,7 @@ export default function Home() {
       <AboutUs />
       <WhyChooseUs />
       <Service />
-      
+      <ScrollToTop />
      
     </div>
   );
