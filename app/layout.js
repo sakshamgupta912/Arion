@@ -3,7 +3,7 @@ import "./globals.css";
 import Header from "./_components/Header";
 import '@fortawesome/fontawesome-free/css/all.min.css'; // For FontAwesome
 import 'bootstrap-icons/font/bootstrap-icons.css'; // For Bootstrap Icons
-
+import Footer from "@/components/ui/footer";
 const outfit = Outfit({
   variable: "--font-outfit",
   subsets: ["latin"],
@@ -30,6 +30,7 @@ export default function RootLayout({ children }) {
         <div >
           <Header />
           {children}
+          <Footer/> 
         </div>
       </body>
     </html>
